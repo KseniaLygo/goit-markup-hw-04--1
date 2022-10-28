@@ -23,6 +23,35 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.address-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     max-width: 1200;
     margin: 0 auto;
     padding: 0 15px;
@@ -40,9 +69,13 @@ body {
 .h-container1 {
     padding-left: 215px;
 }
+
 .h-container2 {
-    display: flex;
 }
+
+.h-container2 {
+}
+
 .header-2 {
     display: flex;
     margin-right: 340px;
@@ -57,7 +90,7 @@ body {
 } */
 .header-h-cont {
     display: block;
-    padding: 32px;
+    padding: 32px 0;
 }
 
 .nav2 {
@@ -96,8 +129,14 @@ a:hover {
 
 .menu2 {
     display: flex;
-    
+    align-items: center;
+    margin-right: 340px;
 }
+
+.menu2 li {
+    white-space: nowrap;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -105,11 +144,14 @@ a:hover {
 
 }
 .content {
+    display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
+    flex-wrap: wrap;  
 }
 .hero-head1 {
     display: flex;
+    justify-content: center;
     gap: 8px;
 }
 .foto5 {
@@ -122,6 +164,11 @@ a:hover {
     gap: 30px;
     padding-bottom: 30px;
 }
+
+.foot9 li, .foot10 li, .foot11 li {
+    border: 1px solid #EEEEEE
+}
+
 .foot10 {
     display: flex;
     gap: 30px;
@@ -242,7 +289,6 @@ background-color: var(--bgcolor);
 }
 
 .hero button {
-width: 103px;
 height: 38px;
 background:  var(--vtcolor);
 border-radius: 4px;
@@ -406,7 +452,11 @@ background-color: var(--vtcolor);
 }
 
 section.our-team li {
-background-color: var(--bgcolor);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bgcolor);
 }
 
 
