@@ -206,16 +206,25 @@ a:hover {
 }
 .hero-head:hover {
 background-color: var(--blueskin);
+color: var(--bgcolor);
 }
 .hero-head2:hover {
     background-color: var(--blueskin);
+    color: var(--bgcolor);
     }
+ .hero-head:focus {
+ box-shadow: 0 0 0 3px var(--blek);
+ }
+ .hero-head2:focus {
+ box-shadow: 0 0 0 3px var(--blek);
+ }
 
 .foot9 {
     display: flex;
     gap: 30px;
     padding-bottom: 30px;
-    margin-bottom: 4px;
+    
+    
 }
 
 .foot9 li, .foot10 li, .foot11 li {
@@ -226,14 +235,15 @@ background-color: var(--blueskin);
     display: flex;
     gap: 30px;
     padding-bottom: 30px;
+    margin-top: 4px;
 }
 .foot11 {
     display: flex;
     gap: 30px;
 }
-.foot8{
-margin-right: 20px;
-margin-top: 9px;
+.foot8 {
+
+margin-top: 20px;
 }
 
 .text9 {
