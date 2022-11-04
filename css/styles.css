@@ -39,6 +39,7 @@ body {
 }
 .navigat {
     display: flex;
+    margin-right: 340px;
 }
 
 #logo {
@@ -53,7 +54,7 @@ body {
 
 .header-2 {
     display: flex;
-    margin-right: 340px;
+    
     margin-left: 97px;
     gap: 53px;
 }
