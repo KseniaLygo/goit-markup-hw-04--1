@@ -40,6 +40,7 @@ body {
 .navigat {
     display: flex;
     margin-right: 340px;
+    
 }
 
 #logo {
@@ -51,6 +52,17 @@ body {
     color: var(--blueskin);
     padding-top: 24px;
 }
+
+#logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--blueskin);
+    
+}
+
 
 .header-2 {
     display: flex;
@@ -108,9 +120,11 @@ body {
     }
     .work1 {
         display: flex;
-        flex-basis: calc ((1170px-30px*3)/4);
-        gap: 30px;
-        
+        gap: 30px; 
+    }
+
+    .work3 {
+        flex-basis: calc((100% - 30px * 3) / 4);
     }
     .work2 {
         margin-bottom: 10px;
@@ -185,15 +199,23 @@ a:hover {
     gap: 8px;
 }
 .foto5 {
-    padding-top: 50px;
+    margin-top: 50px;
    display: flex ;
    flex-wrap:wrap ;
    gap: 30px;
 }
+.hero-head:hover {
+background-color: var(--blueskin);
+}
+.hero-head2:hover {
+    background-color: var(--blueskin);
+    }
+
 .foot9 {
     display: flex;
     gap: 30px;
     padding-bottom: 30px;
+    margin-bottom: 4px;
 }
 
 .foot9 li, .foot10 li, .foot11 li {
@@ -208,6 +230,9 @@ a:hover {
 .foot11 {
     display: flex;
     gap: 30px;
+}
+.foot8{
+margin-right: 20px;
 }
 
 .text9 {
@@ -250,7 +275,7 @@ list-style-type: none;
 
 .foot-text {
     font-style: normal;
-    margin-top: 9px;
+    
     }
 
 
@@ -293,7 +318,7 @@ font-size: 16px;
 height: 38px;
 background:  var(--vtcolor);
 border-radius: 4px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 
 }
 
