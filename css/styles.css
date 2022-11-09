@@ -45,10 +45,11 @@ color :#AFB1B8
     border-color: #2196F3;
 }
 .socials-icon1 {
+    margin-top: 16px;
     fill: #AFB1B8;
 }
 .socials-icon1:hover{
-    fill: #ECECEC;
+    fill: #FFFFFF;
     background-color: #2196F3;
 }
 .socials-icon2 {
@@ -169,7 +170,7 @@ color :#AFB1B8
     justify-content: center;
     margin-bottom: 30px;
 }
-.socials-icon1{
+.socials-icon3 {
     --color2:#212121;
     --color1:#2196F3;
     
