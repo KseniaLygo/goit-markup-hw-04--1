@@ -44,11 +44,29 @@ color :#AFB1B8
 .clients-link:focus {
     border-color: #2196F3;
 }
+
+
 .socials-icon1 {
     margin-top: 16px;
-    fill: #AFB1B8;
+    width: 44px;
+    height: 44px;
+    fill:#AFB1B8 ;
+    background-position:#EEEEEE ;
+    border-radius: 50%;
 }
 .socials-icon1:hover{
+    fill: #FFFFFF;
+    background-color: #2196F3;
+}
+.socials-icon5 {
+    margin-top: 20px;
+    width: 44px;
+    height: 44px;
+    fill:#AFB1B8 ;
+    background-position:rgba(255, 255, 255, 0.1) ;
+    border-radius: 50%;
+}
+.socials-icon5:hover{
     fill: #FFFFFF;
     background-color: #2196F3;
 }
@@ -193,7 +211,8 @@ color :#AFB1B8
         color: #2196F3;  
     }
     .we5{
-        display: flex;   
+        display: flex; 
+          
     }
     .socials-icon1:hover {
         color: var(--blueskin);
